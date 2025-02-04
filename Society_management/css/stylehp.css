@@ -1,0 +1,188 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+
+ }
+ 
+ /* Header Section */
+ header {
+   background-color: #c53030; /* red-800 */
+   color: white;
+ }
+ 
+ /* Navigation Bar Section */
+ nav {
+   background-color: #c53030; /* red-800 */
+   box-shadow: 0 4px 2px -2px gray;
+ }
+ 
+ .container {
+   margin: 0 auto;
+   padding: 0 1.5rem;
+ }
+ 
+ .flex {
+   display: flex;
+ }
+ 
+ .space-x-4 {
+   gap: 1rem;
+ }
+ 
+ .space-x-2 {
+   gap: 0.5rem;
+ }
+ 
+ .items-center {
+   align-items: center;
+ }
+ 
+ .justify-between {
+   justify-content: space-between;
+ }
+ 
+ .text-xl {
+   font-size: 1.25rem;
+ }
+ 
+ .font-bold {
+   font-weight: 700;
+ }
+ 
+ .text-white {
+   color: white;
+ }
+ 
+ .bg-red-800 {
+   background-color: #c53030;
+ }
+ 
+ .bg-cover {
+   background-size: cover;
+ }
+ 
+ .bg-center {
+   background-position: center;
+ }
+ 
+ .h-screen {
+   height: 100vh;
+ }
+ 
+ .md\\:hidden {
+   display: none;
+ }
+ 
+ .md\\:flex {
+   display: flex;
+ }
+
+ /* Hover Effect */
+ .hover-effect:hover,
+ header span:hover,
+ header a:hover,
+ nav a:hover,
+ nav span:hover {
+   color: black !important;
+   transition: color 0.3s ease !important;
+ }
+ 
+ .auth-links a:hover {
+   color: black; 
+   text-decoration: underline;
+   transition: color 0.3s ease, text-decoration 0.3s ease;
+ }
+ 
+ nav a {
+   font-weight: bold;
+   color: white; /* Default color for nav links */
+ }
+ 
+ /* Apply hover effect on navigation links */
+ nav a:hover {
+   color: black !important;
+   text-decoration: underline !important;
+ }
+ 
+ /* Social Media Links */
+ .social_box a {
+   text-decoration: none;
+ }
+ 
+ .social_box i {
+   font-size: 1.25rem;
+ }
+ 
+ /* Mobile Menu Button */
+ button {
+   background: none;
+   border: none;
+   cursor: pointer;
+ }
+ 
+ button i {
+   font-size: 1.5rem;
+ }
+ /* Specific styles for .custom-form-container */
+ .custom-form-container {
+   text-align: center;
+   padding: 20px;
+   background-color: #111;
+   border-radius: 10px;
+   width: 50%;
+   margin: 0 auto;
+ }
+
+ .custom-form-container .form-input {
+   width: 90%;
+   padding: 8px;
+   margin-bottom: 10px;
+   border: none;
+   background-color: #222;
+   color: #fff;
+   border-radius: 5px;
+   transition: all 0.3s;
+   caret-color: #f00;
+ }
+
+ .custom-form-container .form-input::placeholder {
+    color: #aaa;
+  }
+  
+  /* Hover effect for .form-input */
+  .custom-form-container .form-input:hover {
+    background-color: #333;
+    color: #fff;
+    box-shadow: 0 0 10px #f00;
+  }
+
+ .custom-form-container .btn {
+   background-color: #f00;
+   color: #fff;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: all 0.3s;
+ }
+
+ .custom-form-container .btn:hover {
+   background-color: #fff;
+   color: #f00;
+   border: 2px solid #f00;
+ }
+
+ /* Hover effect for social media icons */
+ .social_box a:hover {
+   transform: scale(1.2); /* Slightly enlarge on hover */
+ }
+ .footer_section {
+   background-color: #000;
+   text-align: center;
+ }
+
+ .footer_section p {
+   border-top: 1px solid #f00;
+   padding: 25px 0;
+   color: #fff;
+ }

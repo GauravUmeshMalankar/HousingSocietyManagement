@@ -1,0 +1,147 @@
+.form-input,
+.member-master-page input {
+   width: 90%;
+   padding: 8px;
+   margin-bottom: 10px;
+   border: none;
+   background-color: #222;
+   color: #fff;
+   border-radius: 5px;
+   transition: all 0.3s;
+   caret-color: #f00;
+}
+
+.form-input::placeholder,
+.member-master-page input::placeholder {
+    color: #aaa;
+}
+
+.form-input:hover,
+.member-master-page input:hover {
+    background-color: #333;
+    color: #fff;
+    box-shadow: 0 0 10px #f00;
+}
+
+
+/* Select styling */
+.member-master-page select.form-select {
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #222 !important;
+    color: #fff;
+    border-radius: 5px;
+    transition: all 0.3s;
+    caret-color: #f00 !important;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.member-master-page .form-select:hover {
+    background-color: #333 !important;
+    color: #fff;
+    box-shadow: 0 0 10px #f00 !important;
+}
+
+
+.btn,
+.member-master-page .btn {
+   background-color: #f00;
+   color: #fff;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: all 0.3s;
+}
+
+.btn:hover,
+.member-master-page .btn:hover {
+   background-color: #fff;
+   color: #f00;
+   border: 2px solid #f00;
+}
+
+.member-master-page {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(to bottom, #b71c1c, #000); 
+}
+
+.member-master-page .form-container {
+    max-width: 2000px;
+    margin: auto;
+    padding: 20px;
+    background: #000;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    color: white;
+}
+
+.member-master-page .form-label {
+    width: 30%;
+    text-align: right;
+    margin-right: 10px;
+    font-weight: bold;
+    color: #f00 !important;
+}
+
+.member-master-page .form-row {
+    margin-bottom: 15px;
+}
+
+.member-master-page .form-container button {
+    width: 100px;
+}
+
+.member-master-page .table-wrapper {
+    margin-top: 20px;
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+.member-master-page table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #222;
+    color: white;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.member-master-page th {
+    background: #b71c1c;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+.member-master-page td {
+    padding: 10px;
+    border-bottom: 1px solid #555;
+}
+
+.member-master-page tr:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.member-master-page .btn {
+    border-radius: 5px;
+}
+
+.member-master-page h2,
+.member-master-page h3 {
+    font-weight: bold;
+}
+#agendaPreview {
+    margin-top: 10px;
+    max-width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
