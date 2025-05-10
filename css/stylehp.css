@@ -1,0 +1,381 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  
+
+ }
+ 
+ /* Header Section */
+ header {
+ 
+   background-color: #c53030; /* red-800 */
+   color: white;
+ }
+ 
+ /* Navigation Bar Section */
+ nav {
+
+   background-color: #c53030; /* red-800 */
+   box-shadow: 0 4px 2px -2px gray;
+   
+ }
+ 
+ .container {
+   margin: 0 auto;
+   padding: 0 1.5rem;
+ }
+ 
+ .flex {
+   display: flex;
+ }
+ 
+ .space-x-4 {
+   gap: 1rem;
+ }
+ 
+ .space-x-2 {
+   gap: 0.5rem;
+ }
+ 
+ .items-center {
+   align-items: center;
+ }
+ 
+ .justify-between {
+   justify-content: space-between;
+ }
+ 
+ .text-xl {
+   font-size: 1.25rem;
+ }
+ 
+ .font-bold {
+   font-weight: 700;
+ }
+ 
+ .text-white {
+   color: white;
+ }
+ 
+ .bg-red-800 {
+   background-color: #c53030;
+ }
+ 
+ .bg-cover {
+   background-size: cover;
+ }
+ 
+ .bg-center {
+   background-position: center;
+ }
+ 
+ .h-screen {
+   height: 100vh;
+ }
+ 
+ .md\\:hidden {
+   display: none;
+ }
+ 
+ .md\\:flex {
+   display: flex;
+ }
+
+ /* Hover Effect */
+ .hover-effect:hover,
+ header span:hover,
+ header a:hover,
+ nav a:hover,
+ nav span:hover {
+   color: black !important;
+   transition: color 0.3s ease !important;
+ }
+ 
+ .auth-links a:hover {
+   color: black; 
+   text-decoration: underline;
+   transition: color 0.3s ease, text-decoration 0.3s ease;
+ }
+ 
+ nav a {
+   font-weight: bold;
+   color: white; /* Default color for nav links */
+ }
+ 
+ /* Apply hover effect on navigation links */
+ nav a:hover {
+   color: black !important;
+   text-decoration: underline !important;
+ }
+ 
+ /* Social Media Links */
+ .social_box a {
+   text-decoration: none;
+ }
+ 
+ .social_box i {
+   font-size: 1.25rem;
+ }
+ 
+ /* Mobile Menu Button */
+ button {
+   background: none;
+   border: none;
+   cursor: pointer;
+ }
+ 
+ button i {
+   font-size: 1.5rem;
+ }
+ /* Specific styles for .custom-form-container */
+ .custom-form-container {
+
+   text-align: center;
+   padding: 20px;
+   background-color: #111;
+   border-radius: 10px;
+   width: 50%;
+   margin: 0 auto;
+ }
+
+ .custom-form-container .form-input {
+   width: 90%;
+   padding: 8px;
+   margin-bottom: 10px;
+   border: none;
+   background-color: #222;
+   color: #fff;
+   border-radius: 5px;
+   transition: all 0.3s;
+   caret-color: #f00;
+ }
+
+ .custom-form-container .form-input::placeholder {
+    color: #aaa;
+  }
+  
+  /* Hover effect for .form-input */
+  .custom-form-container .form-input:hover {
+    background-color: #333;
+    color: #fff;
+    box-shadow: 0 0 10px #f00;
+  }
+
+ .custom-form-container .btn {
+   background-color: #f00;
+   color: #fff;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: all 0.3s;
+ }
+
+ .custom-form-container .btn:hover {
+   background-color: #fff;
+   color: #f00;
+   border: 2px solid #f00;
+ }
+
+ /* Feedback Type Container */
+.custom-form-container .feedback-type {
+  text-align: left;
+
+  margin-left: 25px; /* Adjust this value for proper alignment */
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Radio Buttons Styling */
+.custom-form-container .feedback-type input[type="radio"] {
+  display: none; /* Hide default radio button */
+}
+
+.custom-form-container .feedback-type label {
+  display: inline-block;
+  background-color: #222;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  margin-right: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+/* Hover and Checked Styles */
+.custom-form-container .feedback-type label:hover {
+  background-color: #333;
+  box-shadow: 0 0 10px #f00;
+}
+
+.custom-form-container .feedback-type input[type="radio"]:checked + label {
+  background-color: #f00;
+  color: #fff;
+  border: 2px solid #fff;
+  box-shadow: 0 0 10px #f00;
+}
+
+ /* Hover effect for social media icons */
+ .social_box a:hover {
+   transform: scale(1.2); /* Slightly enlarge on hover */
+ }
+ .footer_section {
+   background-color: #000;
+   text-align: center;
+ }
+
+ .footer_section p {
+   border-top: 1px solid #f00;
+   padding: 25px 0;
+   color: #fff;
+ }
+
+
+ /* Sidebar Styles Scoped to .sidebar */
+ .sidebar body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  background: white;
+}
+
+/* Sidebar Container */
+.sidebar .sidebar-container {
+  position: fixed;
+  height: 100%;
+  width: 240px;
+  background: #000;
+  transition: all 0.5s ease;
+
+}
+
+/* Sidebar Active State */
+.sidebar .sidebar-container.active {
+  width: 60px;
+}
+
+/* Sidebar Logo */
+.sidebar .logo-details {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ff0000;
+  padding: 0 20px;
+}
+
+/* Sidebar Logo Image */
+.sidebar .logo-details img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+/* Sidebar Logo Text */
+.sidebar .logo-details .logo_name {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  transition: 0.5s;
+}
+
+/* Hide Logo Name When Sidebar is Collapsed */
+.sidebar .sidebar-container.active .logo-details .logo_name {
+  display: none;
+}
+
+/* Sidebar Navigation Links */
+.sidebar .nav-links {
+  margin-top: 5px;
+  padding: 0;
+  list-style: none;
+}
+
+/* Sidebar Navigation Items */
+.sidebar .nav-links li {
+  height: 40px;
+}
+
+/* Sidebar Links */
+.sidebar .nav-links li a {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  transition: all 0.4s ease;
+  color: white;
+  padding: 0 15px;
+  font-size: 14px;
+}
+
+/* Sidebar Link Icons */
+.sidebar .nav-links li i {
+  min-width: 35px;
+  text-align: center;
+  font-size: 16px;
+  color: white;
+}
+
+/* Sidebar Link Names */
+.sidebar .nav-links li a .links_name {
+  font-size: 14px;
+  font-weight: 400;
+  white-space: nowrap;
+}
+
+/* Hide Link Names When Sidebar is Collapsed */
+.sidebar .sidebar-container.active .nav-links li a .links_name {
+  display: none;
+}
+
+/* Sidebar Active/Hover Styles */
+.sidebar .nav-links li a:hover,
+.sidebar .nav-links li a.active {
+  background: #ff0000;
+  border-radius: 5px;
+}
+/* Sidebar Logout Button */
+.sidebar .log_out {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Home Section Styling */
+.sidebar .home-section {
+  position: relative;
+  background: #f5f5f5;
+  min-height: 100vh;
+  width: calc(100% - 240px);
+  left: 240px;
+  transition: all 0.5s ease;
+}
+
+/* Adjust when sidebar is collapsed */
+.sidebar .sidebar-container.active ~ .home-section {
+  width: calc(100% - 60px);
+  left: 60px;
+}
+
+/* Navbar Styling */
+.custom-navbar {
+
+  background-color: black;
+  padding: 10px 20px;
+  margin-left: 250px; /* Same width as sidebar */
+  padding: 8.5px;
+  text-align: left; /* Align text to the right */
+  padding-left: 280px; /* Adjust this value to match your required space */
+  margin-left: 0; /* Remove extra margin */
+}
+.custom-navbar h1 {
+  color: white;
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold; /* Makes the text bold */
+}
