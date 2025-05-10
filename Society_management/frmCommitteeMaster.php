@@ -1,5 +1,5 @@
 <?php
-// Establish a single database connection
+// Establish a single database 
 $conn = mysqli_connect("localhost", "root", "", "housingsociety");
 
 // Check connection
