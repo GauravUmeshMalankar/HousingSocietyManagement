@@ -59,8 +59,8 @@ if (isset($_POST['btnEmail'])) {
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'mobpyscho483@gmail.com'; // Your SMTP username
-        $mail->Password = 'xlse duih qfpu xxuu'; // Your SMTP password
+        $mail->Username =  // Your SMTP username
+        $mail->Password = // Your SMTP password
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port = 587;
         $mail->setFrom('no-reply@yourdomain.com', 'Society Management');
