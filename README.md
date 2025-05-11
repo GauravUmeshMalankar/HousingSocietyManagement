@@ -5,10 +5,9 @@ a well-organized living environment.
 
 Demo: http://hsm.free.nf/index.php
 
-Username: AdminUser
-Password: adminuser
+Username: AdminUser , Password: adminuser
 
-HOMEPAGE
+HOMEPAGE HOMEPAGE
 ![Home](images/Home.png)
 
 DASHBOARD
